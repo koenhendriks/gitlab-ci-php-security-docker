@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # Releases https://github.com/fabpot/local-php-security-checker/releases
-ARG URL="https://github.com/fabpot/local-php-security-checker/releases/download/v1.0.0/local-php-security-checker_1.0.0_linux_amd64"
+ARG URL="https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.4/local-php-security-checker_2.0.4_linux_amd64"
 
 RUN apk add --no-cache wget
 
